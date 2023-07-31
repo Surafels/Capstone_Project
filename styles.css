@@ -57,6 +57,7 @@ gap: 30px;
 .program{
     background: url(asset/main-program.png);
     margin-top: 200px;
+    height: 650px;
 }
 .m-p{
     display: flex;
@@ -98,10 +99,39 @@ gap: 30px;
 }
 .join-glo{
     background: red;
-    padding: 10px;
+    margin: 24px 48px;
+    padding: 24px;
 }
-
-
+.featured-speakers{
+    height: 600px;
+}
+.f-speakers{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+hr{
+    align-items: center;
+    border: 1px solid #ff0000c4;
+    align-items: center;
+    width: 43px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.speaker-one{
+    display: flex;
+}
+.speaker-info{
+    display: flex;
+    flex-direction: column;
+}
+.speaker-w{
+    color:red
+}
+.speaker-e{
+    color:
+}
 
 
 
