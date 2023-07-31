@@ -17,7 +17,6 @@ display: none !important;
 }
 .main-section{
     margin-left:24px;
-    width:373px;
 height:306px;
 top: 109px;
 padding: 0px 12px 0px 12px;
@@ -37,6 +36,32 @@ gap: 30px;
 .program{
     background: url(asset/main-program.png);
     margin-top: 200px;
+}
+.m-p{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 24px;
+    align-items: center;
+    color: white;
+
+} /*
+.m-pro{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    margin-left: 60px;
+    color: white;
+    
+} */
+
+.uderline{
+    align-items: center;
+    border: 1px solid #ff0000c4;
+    align-items: center;
+    width: 43px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 .lecture , .forum , .Exhibition, .workshop ,.ignite{
     display: flex;
