@@ -1,5 +1,5 @@
 const humbergerMenu= document.querySelector('#humberger');
-const closing= document.querySelector('#closing-icon');
+const closingMenu= document.querySelector('.closing');
 const menuContainer= document.querySelector('#mobile-menu')
 const mobileList= document.querySelector('#hum-list');
 function openMenu(){
@@ -9,5 +9,5 @@ humbergerMenu.addEventListener('click',openMenu);
 function closeMenu(){
 menuContainer.classList.remove('hidden');    
 }
-closeMenu.addEventListener('click',closeMenu);
+closingMenu.addEventListener('click',closeMenu);
 mobileList.addEventListener('click',closeMenu);

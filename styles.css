@@ -8,6 +8,15 @@ padding:0;
 #mobile-menu{
 display: none !important;
 }
+.toggle{
+    display: flex;
+    padding: 24px;
+    background: bisque;
+}
+.closing{
+    display: none;
+position: absolute;
+}
 #humberger{
     cursor: pointer;
     width: 24px;
@@ -16,22 +25,34 @@ display: none !important;
     position: absolute;
 }
 .main-section{
-    margin-left:24px;
-height:306px;
-top: 109px;
+    background: url(asset/desk-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 padding: 0px 12px 0px 12px;
 gap: 30px;
-
 }
+.section-head{
+    background: #8080800d;
+    margin-top: 100px;
+    padding: 24px 0;;
+}
+
 .greeting{
     color: red;
 }
 .topic{
     color: red;
+    font-size: 30px;
 }
 .detail{
    background:#F8F8F8;
     font-size: 15px;
+    padding: 24px 0;
+}
+.main-bottom{
+    padding: 24px 0;
 }
 .program{
     background: url(asset/main-program.png);
@@ -72,6 +93,14 @@ gap: 30px;
     gap: 12px;
     background-color: hsl(260deg 11% 85% / 18%);
 }
+.p-list{
+    color: red;
+}
+.join-glo{
+    background: red;
+    padding: 10px;
+}
+
 
 
 
