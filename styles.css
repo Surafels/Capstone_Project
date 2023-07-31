@@ -2,8 +2,16 @@
 .top-head{
     display:none;
 }
-
-
+#mobile-menu{
+display: none !important;
+}
+#humberger{
+    cursor: pointer;
+    width: 24px;
+}
+.menu-list{
+    position: absolute;
+}
 
 
 
