@@ -1,7 +1,7 @@
 *{
 margin:0;
 padding:0;
-font-family: 'Lato', serif;
+font-family: 'Lato', sans-serif;
 }
 
 .top-head{
@@ -14,7 +14,8 @@ z-index: 9999;
 .toggle{
     display: flex;
     padding: 24px;
-    background: bisque;
+    justify-content: space-between;
+    align-items: center;
 }
 .closing{
     display: none;
@@ -23,6 +24,7 @@ position: absolute;
 #humberger{
     cursor: pointer;
     width: 24px;
+    height: 24px;
 }
 .menu-list{
     position: absolute;
@@ -60,17 +62,32 @@ gap: 30px;
 .program{
     background: url(asset/main-program.png);
     margin-top: 200px;
-    height: 650px;
+    height: 710px;
 }
 .m-p{
     display: flex;
     flex-direction: column;
     padding: 50px;
-    margin-top: 24px;
+    margin-top: -198px;
     align-items: center;
     color: white;
 
-} /*
+}
+.summit{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding:16px
+} 
+.su-cre{
+    font-size: 24px;
+    padding: 0 8px;
+    margin: 0 8px;
+}
+
+
+
+/*
 .m-pro{
     display: flex;
     margin-top: 24px;
@@ -135,8 +152,12 @@ hr{
     display:flex
     
 }
+.about-section{
+    height: 700px;
+}
 .abt-greeting{
     color:red;
+    margin-top: 20px;
 
 }
 .abt-title{
@@ -151,10 +172,12 @@ font-size: 32px;
     line-height: 24px;
 }
 .abt-detail{
-    font-size: 20px;
-    
+    font-size: 14px;
+    background: white;
+    padding: 10px;
+}    
 
-}
+
 .abt-email{
 font-size: 15px;
 color:#5a5a5a;
@@ -164,19 +187,34 @@ text-decoration: underline;
 display: flex;
 flex-direction: column;
 align-items: center;
-background: url(asset/desk-back.png);
 }
 .abt-contact{
 color: #7A7A7A;
-;
+
+}
+.card-section{
+    background: url(asset/desk-back.png);
+
 }
 .contact{
     display: flex;
-    padding: 16px;
+    padding: 26px;
     gap: 10px;
     flex-direction: column;
     line-height: 24px;
     align-items: center;
+}
+.logo{
+    color: #838383;
+    margin: 12px;
+    font-size: 16px;
+}
+.cc-log{
+    display: flex;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    margin: auto;
 }
 
 
