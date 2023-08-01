@@ -216,6 +216,19 @@ color: #7A7A7A;
     width: 150px;
     margin: auto;
 }
+.mobile-footer{
+    height: 400px;
+}
+.m-n{
+    display: flex;
+    justify-content: space-around;
+}
+.mozilla , .google,.naver{
+    width: 100px;
+    height: 35px;
+}
+.partners{
+}
 
 
 
