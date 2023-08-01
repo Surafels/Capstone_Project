@@ -6,7 +6,7 @@ padding:0;
     display:none;
 }
 #mobile-menu{
-display: none !important;
+display: none;
 }
 .toggle{
     display: flex;
@@ -88,7 +88,6 @@ gap: 30px;
 .lecture , .forum , .Exhibition, .workshop ,.ignite{
     display: flex;
     align-items: center;
-    margin:12px;
     margin: 12px;
     color: white;
     gap: 12px;
@@ -130,13 +129,32 @@ hr{
     color:red
 }
 .speaker-e{
-    color:
+    
 }
 
 
 
 
 
-@media screen and (width:768px){
+@media screen and (min-width:768px){
+    .toggle{
+        display: none;
+    }
+    .top-head{
+        display:flex;
+    }
+    .join-glo{
+        display: none;
+    }
+    .lecture,.Exhibition,.forum,.workshop,.ignite{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-mob{
+        display: flex;
+    }
+    .pro-list{
+        display:flex
+    }
   
 }
