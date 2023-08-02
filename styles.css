@@ -16,18 +16,22 @@ font-family: 'Lato', sans-serif;
     align-items: center;
     padding: 2px;
     margin-right: 67px;
-}
+}/*
 #mobile-menu{
 display: block;
 z-index: 9999;
 position: fixed;
-}
+} */
 .toggle{
     display: flex;
     padding: 24px;
     justify-content: space-between;
     align-items: center;
 }
+.hidden{
+    display: block!important;
+}
+
 .closing{
 position: absolute;
 }
@@ -37,7 +41,7 @@ position: absolute;
     height: 24px;
 }
 .menu-mob{
-    display:block;
+    display:none;
     position: absolute;
 }
 /*
@@ -211,6 +215,8 @@ color: #7A7A7A;
 }
 .card-section{
     background: url(asset/desk-back.png);
+    position: relative;
+    margin-top: 230px;
 
 }
 .contact{
@@ -295,6 +301,29 @@ color: #7A7A7A;
 }
 .partners-list >li:nth-child(3){
   display: block;
+}
+.ff-speakers{
+    display: flex;
+    padding: 12px;
+}
+.separ{
+    border: 1px solid #ff0000c4;
+ 
+}
+.speaker-info{
+    margin: 12px;
+    padding: 12px;
+    line-height: 24px;
+}
+.s-name{
+font-size: 16px;
+}
+.s-job{
+color: red;
+font-size: 14px;
+}
+.s-description{
+font-size: 13px;
 }
 @media screen and (min-width:768px){
     .toggle{
@@ -393,5 +422,11 @@ color: #7A7A7A;
         gap: 30px;
     justify-content: space-around;
     margin: 0 auto;
+    }
+    .ff-speakers{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 12px;
     }
 }
