@@ -28,7 +28,7 @@ const speakers=[
         id:2,
         speakerName:'Yochai Benkler',
     jobTitle:'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
-    imageUrl:'asset/social.png',
+    imageUrl:'asset/benkler.jpeg',
     description:'Benkler studies commons-based peer production, and published his seminal book,The Wealth of Networks in 2006',
     },
     {
@@ -51,8 +51,9 @@ speakers.forEach((speaker) => {
     const speakerDiv = document.createElement('div');
     speakerDiv.className = 'ff-speakers';
     speakerDiv.innerHTML=`
+    
     <div>
-    <img src'${speaker.imageUrl}' class='s-image'  alt='speaker image'>
+    <img src='${speaker.imageUrl}' class='s-image'  alt='speaker image'>
     </div>
     <div class='speaker-info'>
     <h1 class='s-name'>${speaker.speakerName}</h1>
@@ -60,6 +61,7 @@ speakers.forEach((speaker) => {
     <hr class='separ'>
     <p class='s-description'>${speaker.description}</p
     </div>
+    
     `
     speakerSection.appendChild(speakerDiv)
 
