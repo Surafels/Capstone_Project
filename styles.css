@@ -20,6 +20,7 @@ font-family: 'Lato', sans-serif;
 #mobile-menu{
 display: block;
 z-index: 9999;
+position: fixed;
 }
 .toggle{
     display: flex;
@@ -28,18 +29,22 @@ z-index: 9999;
     align-items: center;
 }
 .closing{
-    display: none;
 position: absolute;
 }
-#humberger{
+#hamburger{
     cursor: pointer;
     width: 24px;
     height: 24px;
 }
+.menu-mob{
+    display:block;
+    position: absolute;
+}
+/*
 .menu-list{
     display: none !important;
     position: absolute;
-}
+} */
 .main-section{
     background: url(asset/desk-back.png);
     background-repeat: no-repeat;
