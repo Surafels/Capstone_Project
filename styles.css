@@ -250,7 +250,7 @@ color: #7A7A7A;
 }
 .foot{
     background-color: #212529;
-    height: 295px;
+    height: 280px;
 
 }
 .da-air{
@@ -263,20 +263,34 @@ color: #7A7A7A;
     height: 35px;
 }
 
-.partners{
+.partners-list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
+
 .right-res{
     display:flex;
     align-items: center;
     padding: 18px;
     gap: 20px;
+    margin: 40px auto;
 }
-
+.see-pro{
+    display: none;
+}
 
 .desk-menu{
     display: none;
 }
-
+.partners-list{
+    display: flex;
+}
+.partners-list >li:nth-child(3){
+  display: block;
+}
 @media screen and (min-width:768px){
     .toggle{
         display: none;
@@ -324,12 +338,18 @@ color: #7A7A7A;
         padding: 20px;
         line-height: 24px;
     } 
+    .p-det{
+        padding: 16px;
+    }
     .main-bottom{
         margin: 0px 80px;
         margin-bottom: 24px;
         line-height: 24px;
     }
-    }   
+    .program{
+        height: auto;
+    }
+       
     .join-glo{
         display: none;
     }
@@ -343,5 +363,30 @@ color: #7A7A7A;
     .pro-list{
         display:flex
     }
-  
+    .see-pro{
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: underline;
+        padding: 40px;
+        justify-content: center;
+    }
+    .partners{
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+    .right-res{
+        display:flex;
+        align-items: center;
+        padding: 48px;
+        gap: 20px;
+        margin: 50px auto;
+    }
+    .partners-list{
+        display: flex;
+        gap: 30px;
+    justify-content: space-around;
+    margin: 0 auto;
+    }
 }
