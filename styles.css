@@ -242,7 +242,7 @@ color: #7A7A7A;
 .mobile-footer{
 
     height: 400px;
-    margin-top: 160px;
+    margin-top: 600px;
 }
 .m-n{
     display: flex;
@@ -329,9 +329,22 @@ font-size: 14px;
 .s-description{
 font-size: 13px;
 }
+.p-pic{
+    display: flex;
+    flex-direction: column;
+}
+.pic-1{
+    padding: 16px;
+}
+.pic-2{
+    padding: 16px;
+}
 @media screen and (min-width:768px){
     .toggle{
         display: none;
+    }
+    .p-pic{
+        display: flex;
     }
     .menu-list{
         display: none;
