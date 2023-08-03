@@ -122,6 +122,8 @@
   margin-left: 15px;
 }
 
+
+
 .lecture,
 .forum,
 .Exhibition,
@@ -300,6 +302,7 @@ hr {
   padding: 18px;
   gap: 20px;
   margin: 40px auto;
+  justify-content: space-around;
 }
 
 .see-pro {
@@ -492,6 +495,7 @@ hr {
     padding: 48px;
     gap: 20px;
     margin: 50px auto;
+    justify-content: space-around;
   }
 
   .partners-list {
