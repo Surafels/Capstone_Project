@@ -44,7 +44,21 @@ const speakers=[
     jobTitle:'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
     imageUrl:'asset/benkler.jpeg',
     description:'Benkler studies commons-based peer production, and published his seminal book,The Wealth of Networks in 2006',
-    }
+    },
+    {
+        id:5,
+        speakerName:'Yochai Benkler',
+        jobTitle:'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
+        imageUrl:'asset/benkler.jpeg',
+        description:'Benkler studies commons-based peer production, and published his seminal book,The Wealth of Networks in 2006',
+        },
+        {
+            id:6,
+            speakerName:'Yochai Benkler',
+            jobTitle:'Berkman Professor of Enterpreneurial Legal Studies at Harvard Law School',
+            imageUrl:'asset/benkler.jpeg',
+            description:'Benkler studies commons-based peer production, and published his seminal book,The Wealth of Networks in 2006',
+            }
 ];
 speakers.forEach((speaker) => {
     const speakerSection=document.querySelector('#featured-section');

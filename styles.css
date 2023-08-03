@@ -461,10 +461,20 @@ margin-top: 40px;
     }
     .ff-speakers{
         display: flex;
-        flex-direction: column;
         padding: 12px;
+        width: 280px;
     }
     .su{
         display:flex
+    }
+    .speaker-info{
+        margin:0 12px;
+    }
+    .featured-speakers{
+        display: flex;
+        justify-content: center;
+    margin-top: 60px;
+    margin-left: 24px;
+    flex-wrap:wrap;
     }
 }
