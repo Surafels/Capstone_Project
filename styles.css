@@ -344,14 +344,23 @@ font-size: 13px;
         display: none;
     }
     .p-pic{
-        display: flex;
+flex-direction: row; 
+justify-content: center; 
+margin-top: 40px;  
+}
+    .pic-1{
+        width: 400px;
+    }
+    .pic-2{
+        width: 400px;
+    }
+    .mobile-footer{
+        margin-top: 160px;
     }
     .menu-list{
         display: none;
     }
     .fb,.twit{
-        width: 24px;
-        height: 24px;
     }
     .desk-menu{
         display: flex;
@@ -361,6 +370,7 @@ font-size: 13px;
     }
     .top-desk{
         display:flex;
+        padding: 3px;
         
     }
     .ab-desk{
@@ -415,7 +425,9 @@ font-size: 13px;
         display: flex;
     }
     .pro-list{
-        display:flex
+        display:flex;
+        padding: 0 36px;
+        margin: 0 24px;
     }
     .see-pro{
         display: flex;
