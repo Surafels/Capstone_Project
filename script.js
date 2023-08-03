@@ -5,11 +5,11 @@ const mobileList= document.querySelector('#hum-list');
 
 function openMenu(){
     console.log('hello world',menuContainer);
-    menuContainer.classList.add('hidden');
+    menuContainer.classList.remove('hidden');
     
 }
 function closeMenu(){
-menuContainer.classList.remove('hidden');    
+menuContainer.classList.add('hidden');    
 }
 
 /*hamburgerMenu.addEventListener('click',openMenu); */

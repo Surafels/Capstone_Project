@@ -21,7 +21,7 @@
         <img src="asset/cc global logo.png">
         <ul class="desk-list">
             <li onclick="openmenu()" class="ab-desk"><a href="#"></a>About</li>
-            <li onclick="openmenu()" class=""><a href="#program"></a>Program</li>
+            <li onclick="openmenu()" class=""><a href="#pro"></a>Program</li>
             <li onclick="openmenu()"><a href="#"></a>Join</li>
             <li>Sponsor</li>
             <li>News</li>
@@ -29,13 +29,14 @@
         </ul>
     </div>
     <div class="toggle">
-        <img id="hamburger"  src="asset/mobile_menu 1.png">
+        <img onclick="openMenu()" id="hamburger"  src="asset/mobile_menu 1.png">
         <img src="asset/cc global logo.png">
-        <img  onclick="openMenu()" class="closing" src="asset/Icon - Cancel.png" id="closing-icon">
     </div>
     <div class="menu-mob hidden" id="mobile-menu">
+        <img  onclick="closeMenu()" class="closing" src="asset/Icon - Cancel.png" id="closing-icon">
+
         <ul class="menu-list" id="hum-list">
-            <li onclick="openMenu()" class=""><a class="" href="#">About</a></li>
+            <li onclick="openMenu()" class=""><a class="" href="#abt-sec">About</a></li>
             <li onclick="openmenu()" class=""><a class="" href="#program"></a>Program</li>
             <li>Join</li>
             <li>Sponsor</li>
@@ -56,7 +57,7 @@
     <p class="address">@National Museum of Karea,Art Center Nabi and more</p>
 </div>
     </section>
-    <section class="program">
+    <section class="program" id="pro">
         <div class="m-p">
         <h1 class="m-pro">Main Program</h1>
         <hr class="uderline"></hr>
@@ -98,12 +99,12 @@
     <p class="see-pro">SEE THE HOLE PROGRAM</p>
     </section>
 
-   
-    <section class="featured-speakers" id="featured-section">
-        <div class="f-speakers">
+    <div class="f-speakers">
         <h1>Featured Speakers</h1>
         <hr>
     </div>
+    <section class="featured-speakers" id="featured-section">
+      
      <!---
     <div class="speaker-one">
         <img src="asset/humberger.png" alt="">
@@ -115,7 +116,7 @@
     </div>
     </div> -->
     </section>
-    <section class="about-section">
+    <section class="about-section" id="abt-sec">
         <div class="card-section">
         <div class="abt-top">
         <h1 class="abt-greeting">"Hello! Sharing world"</h1>
