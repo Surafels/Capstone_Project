@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 features
-- [Live Demo link]()
+- [Live Demo link](https://surafels.github.io/Capstone_Project/)
 
 
 <!-- Features -->
@@ -107,7 +107,7 @@ Project can be deployed by using the gh-pages and other web platforms.
 
 👤 **Surafel Samson**
 
-- GitHub: [@githubhandle](https://github.com/Surafels)
+- GitHub: [@Surafels](https://github.com/Surafels)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
