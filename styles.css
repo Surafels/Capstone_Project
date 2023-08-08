@@ -359,6 +359,41 @@ hr {
 .pic-2 {
   padding: 16px;
 }
+.s-description {
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.s-description {
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.s-description.expanded {
+  max-height: unset;
+}
+
+.more {
+  cursor: pointer;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  width: 90%;
+  padding: 9px 0;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  margin: 0 0 20px 23px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/*
+.arrow-up , .arrow-down{
+  color:red;
+} */
 
 @media screen and (min-width: 768px) {
   .toggle {
@@ -506,6 +541,9 @@ hr {
     display: flex;
     padding: 12px;
     width: 280px;
+  }
+  .more{
+    display:none;
   }
 
   .su {

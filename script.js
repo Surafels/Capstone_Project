@@ -13,7 +13,7 @@ function closeMenu() {
 hamburgerMenu.addEventListener('click', openMenu);
 closingMenu.addEventListener('click', closeMenu);
 mobileList.addEventListener('click', closeMenu);
-
+/*
 const speakers = [
   {
     id: 1,
@@ -76,4 +76,4 @@ speakers.forEach((speaker) => {
     
     `;
   speakerSection.appendChild(speakerDiv);
-});
+}); */
