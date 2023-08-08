@@ -78,7 +78,7 @@ const speakers = [
     const speakerDiv = document.createElement('div');
     speakerDiv.className = 'ff-speakers';
     speakerDiv.innerHTML = `
-      <div>
+      <div class='speaker-img'>
         <img src='${speaker.imageUrl}' class='s-image' alt='speaker image'>
       </div>
       <div class='speaker-info'>

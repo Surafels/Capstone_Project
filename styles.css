@@ -328,6 +328,9 @@ hr {
   padding: 12px;
   line-height: 24px;
 }
+.speaker-img{
+  height: auto;
+}
 
 .s-name {
   font-size: 16px;
@@ -339,8 +342,8 @@ hr {
 }
 
 .s-image {
-  width: 50px;
-  height: 50px;
+  width: 128px;
+  height: 210px;
 }
 
 .s-description {
@@ -542,6 +545,11 @@ hr {
     padding: 12px;
     width: 280px;
   }
+  
+.s-image {
+  width: 128px;
+  height: 178px;
+}
   .more{
     display:none;
   }
