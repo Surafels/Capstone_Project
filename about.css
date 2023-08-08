@@ -192,7 +192,6 @@ hr {
     margin-left: 15px;
   }
   .top-head{
-    display: none;
   }
   .desk-menu{
     display: none;
@@ -287,6 +286,7 @@ hr {
   }
   .right-res {
     display: flex;
+    background-color: #32353b;
     align-items: center;
     padding: 18px;
     gap: 20px;
