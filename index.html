@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="top-head">
+        <ul class="top-desk">
+        <li><img class="fb" src="asset/facebook.png" alt="facebook"></li>
+        <li><img class="twit" src="asset/twitter.png" alt="twitter"></li>
+        <li>English</li>
+        <li>My page</li>
+        <li>Log out</li>
+        </ul>
+    </div>
+    <div class="desk-menu">
+        <img class="mic-logo" src="asset/mic logo.png">
+        <ul class="desk-list">
+            <li onclick="openmenu()" class="ab-desk"><a href="./about.html">About</a></li>
+            <li onclick="openmenu()" class=""><a href="#pro">Program</a></li>
+            <li onclick="openmenu()"><a href="#"></a>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+            <li class="desk-cc">CC Campaign</li>
+        </ul>
+    </div>
+    <div class="toggle">
+        <img onclick="openMenu()" id="hamburger"  src="asset/mobile_menu 1.png">
+        <img class="mic-log" src="asset/mic logo.png">
+    </div>
+    <div class="menu-mob hidden" id="mobile-menu">
+        <img  onclick="closeMenu()" class="closing" src="asset/Icon - Cancel.png" id="closing-icon">
+
+        <ul class="menu-list" id="hum-list">
+            <li onclick="openMenu()" class=""><a class="" href="./about.html">About</a></li>
+            <li onclick="openmenu()" class=""><a class="" href="#program"></a>Program</li>
+            <li>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+            <li>CC Campaign</li>
+        </ul>
+    </div>
+    </header>
+    <section class="main-section">
+        <div class="section-head">
+        <h1 class="greeting">"Hello! Sharing World"</h1>
+        <h2 class="topic">Research Conference and Seminar at MIC <br> 2023</h2>
+    </div>
+        <p class="detail">The seminars contribute to professional development, dissemination of research findings, and the advancement of knowledge within the respective field..
+        </p>
+        <div class="main-bottom">
+        <h3 class="time-fram">  2023.8.8(THU) ~ 16(WED)</h3>
+    <p class="address">@Maryland college hall Addis Ababa,Ethiopia</p>
+</div>
+    </section>
+    <section class="program" id="pro">
+        <div class="m-p">
+        <h1 class="m-pro">Main Program</h1>
+        <hr class="uderline"></hr>
+    </div>
+    <div class="pro-list">
+        <div class="lecture">
+            <img class="pro-icon" src="asset/lecture icon.png" alt="">
+            <p class="p-list">Lecture</p>
+            <p class="p-det-1">Listen to the speakers from various university.</p>        
+        </div>
+        <div class="Exhibition">
+            <img class="pro-icon" src="asset/CC icon.png" alt="">
+            <p class="p-list">CC Exhibition</p>
+            <p class="p-det-2">Appreciate various findings from the presented researches .</p>
+        </div>
+        <div class="forum">
+            <img class="pro-icon" src="asset/forum icon.png" alt="">
+            <p class="p-list">Forum</p>
+            <p class="p-det-3">Have the time to share your thoughts and opinions with scholars.
+            </p>
+        </div>
+        <div class="workshop">
+            <img class="pro-icon" src="asset/workshop icon.png">
+            <p class="p-list">Workshop</p>
+            <p class="p-det-4">Try creating your own work using open source license.
+            </p>
+        </div>
+        <div class="ignite">
+            <img class="pro-icon" src="asset/CC ignite icon.png">
+            <p class="p-list">CC Ignite</p>
+            <p class="p-det-5">get opportunities to network with proffesors from different university .
+            </p>
+        </div>
+        </div>
+        <div class="join-glo">
+        <h2 class="join">Join MIC Seminar 2023</h2>
+    </div>
+    <p class="see-pro">SEE THE HOLE PROGRAM</p>
+    </section>
+
+    <div class="f-speakers">
+        <h1>Featured Speakers</h1>
+        <hr>
+    </div>
+    <section class="featured-speakers" id="featured-section">
+    </section>
+    
+    <footer class="mobile-footer">
+        <div class="foot">
+        <div class="part">
+        <h2>Partner</h2>
+        <hr>
+    </div>
+        <div class="partners">
+            <ul class="partners-list">
+                <li><img class="mozilla" src="asset/mozilla.png" alt="mozila">
+                </li>
+                <li><img class="google" src="asset/google.png" alt="google">
+                </li>
+                <li><img class="naver" src="asset/naver.png" alt="naver">
+                </li>
+                <li><img class="daumk" src="asset/daumkakaologo.png" alt="daumkakao">
+                </li>
+                <li><img class="air" src="asset/airbnb.png" alt="air">
+                </li>
+
+            </ul>
+        </div>
+        
+    </footer>
+    <div class="right-res">
+        <img class="mic-logo" src="asset/mic logo.png">
+        <p>Copyright © 2021 Maryland International College, All rights reserved.</p>
+    </div>
+    <script src="pro.js"></script>
+    <script src="script.js"></script>       
+</body>
+</html>
