@@ -487,7 +487,8 @@ hr {
   }
 
   .more {
-    display: none;
+    display: flex;
+    width: 40%;
   }
 
   .su {
