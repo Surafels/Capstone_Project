@@ -13,4 +13,3 @@ function closeMenu() {
 hamburgerMenu.addEventListener('click', openMenu);
 closingMenu.addEventListener('click', closeMenu);
 mobileList.addEventListener('click', closeMenu);
-
