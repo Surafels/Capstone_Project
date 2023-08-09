@@ -27,10 +27,12 @@
   margin: 20px;
   padding: 20px;
 }
+
 .mic-log {
-    width: 40px;
-    margin-left: 20px;
-  }
+  width: 40px;
+  margin-left: 20px;
+}
+
 .menu-list {
   list-style: none;
   display: flex;
@@ -171,7 +173,6 @@
   margin: 0 8px;
 }
 
-
 .mozilla,
 .google,
 .naver {
@@ -248,6 +249,7 @@ hr {
   .hr2 {
     display: none;
   }
+
   .mic-logo {
     width: 60px;
   }
