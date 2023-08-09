@@ -63,10 +63,10 @@ function createSpeakerElement(speaker) {
 
   return speakerDiv;
 }
+displayAll = true;
 
 function displaySpeakers() {
   speakerSection.innerHTML = '';
-
   const speakersToDisplay = displayAll ? speakers : speakers.slice(0, 2);
 
   speakersToDisplay.forEach((speaker) => {
